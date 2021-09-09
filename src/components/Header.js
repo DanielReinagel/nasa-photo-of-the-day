@@ -1,7 +1,13 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const StyledHeader = styled.h1`
+    color: darkblue;
+    font-family: 'Times New Roman', serif;
+`;
 
 export default function Header(props) {
     return (
-        <h1>Nasa Picture of the Day</h1>
+        <StyledHeader>Nasa Picture of the Day</StyledHeader>
     );
 }
